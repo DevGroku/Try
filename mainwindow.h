@@ -19,7 +19,7 @@ private:
     //Barre de menu
     QMenuBar *bar_menu;
     //Différents menus présent dans la barre de menu
-    QMenu *menu_fichier; QMenu *menu_edition;erer
+    QMenu *menu_fichier; QMenu *menu_edition;
 };
 
 #endif // MAINWINDOW_H

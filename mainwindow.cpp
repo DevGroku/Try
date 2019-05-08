@@ -6,11 +6,8 @@ MainWindow::MainWindow(QWidget *parent)
     //Creation de la barre de menu
     bar_menu = new QMenuBar(this);
 
-    menu_fichier = bar_menu()->addMenu("Fichier");
-    menu_edition = QMenu("Edition");
-
-
-
+    menu_fichier = bar_menu->addMenu("Fichier");
+    //menu_edition = QMenu("Edition");
 
 }
 
