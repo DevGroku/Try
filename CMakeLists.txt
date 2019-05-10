@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.14)
 project(untitled1)
 
-add_executable(learn learn.cpp)
+add_executable(learn_memory learn/memory.cpp)
+add_executable(learn_namespace learn/namespace.cpp)
 
 
 set(CMAKE_PREFIX_PATH  "D:/Qt/5.12.3/mingw73_64")
